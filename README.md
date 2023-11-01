@@ -390,3 +390,53 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
              pip install ultralytics
 
        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/675ad9a6-2632-4b6f-8de6-ad8599b150c9)
+
+* **Running Test on Nvidia Jetson Nano**
+
+  Bring the program that has been developed to completion. Tested functionality on Nvidia Jetson Nano via Visual Studio Code and Terminal.
+
+  **Visual Studio Code**
+
+    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/d84c7fef-fa61-4d41-9a4b-d3698e7becec)
+
+  **Terminal**
+
+    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/b75f4aff-c094-4b08-badc-308677e096a3)
+
+    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/130f6af1-09c9-4244-9165-fde426f5369d)
+
+* **Prepare documents and present operational flowcharts**
+
+  ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e69527b1-0197-47e4-ac12-3c3e9124439b)
+
+## Safety precautions
+
+  1. Follow the Nvidia Jetson Nano instruction manual.
+     
+  2. Avoid exposing the device to static electricity.
+     
+  3. Should install Package and Library versions that are compatible to reduce error_version problems.
+     
+  5. Administrator rights should be used to perform various actions to reduce permission_error problems.
+
+## References and resources
+
+* **Software**
+  
+  Baleba Etcher
+  
+  SD Card Formatter
+  
+  Visual Studio Code
+  
+* **Package and Library**
+  
+	Python
+
+	Pytorch
+
+	Opencv
+
+	Ultralytics and yolov8
+
+	gparted
