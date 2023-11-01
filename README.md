@@ -50,7 +50,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5e6742b5-99d3-41ee-8d15-c4707f6d52a8)
 
-  4. Install package and library
+  3. Install package and library
      1. Create folder
      2. Launch Visual Studio Code
      3. File -> Open Folder -> select the folder was created
@@ -65,3 +65,4 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         <pre>pip install opencv-contrib-python ultralytics</pre>
       
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
+    4. 
