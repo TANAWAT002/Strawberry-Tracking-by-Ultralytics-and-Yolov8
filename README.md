@@ -440,3 +440,8 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 	Ultralytics and yolov8
 
 	gparted
+* **Detection**
+* **Tracking**
+* **Nvidia Jetson Nano**
+* **Nvidia GPU Computing Toolkit**
+* **Ubuntu 20.04 + cuda + tensorRT**
