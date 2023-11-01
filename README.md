@@ -129,21 +129,21 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           
           This function checks if there are any strawberries hitting the left edge of the frame. Include bounging boxes (track_xyxy), i = 0, edge_status = 0 and return edge_status (0:non-Hit the edge, 1:Hit the edge)
  
-       <pre>
-         def endTheEdge(track_xyxy, i=0, edge_status=0):
-            detections = []
-            for det in track_xyxy:
-              detections.append(det)
-              if detections[i][0] < 10:
-                edge_status = 1
-                break
-              else:
-                edge_status = 0
-              i += 1
-            print("Edge status in endTheEdge function : " + str(edge_status))
-            return edge_status</pre>
+           <pre>
+             def endTheEdge(track_xyxy, i=0, edge_status=0):
+                detections = []
+                for det in track_xyxy:
+                  detections.append(det)
+                  if detections[i][0] < 10:
+                    edge_status = 1
+                    break
+                  else:
+                    edge_status = 0
+                  i += 1
+                print("Edge status in endTheEdge function : " + str(edge_status))
+                return edge_status</pre>
 
-       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
+           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
        
        2. Strawberry counting function (countSTB(...))
           
