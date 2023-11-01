@@ -62,6 +62,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/98b8d7b5-8a89-4f54-8232-7fed1dedda21)
         
      5. Install "Opencv" and Ultralytics
+        
               pip install opencv-contrib-python ultralytics
       
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
@@ -80,8 +81,11 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
               bin -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/bin
               lib -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/lib
               include -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/include</pre>
+              
         3. Install [Pytorch](https://pytorch.org/)
-             <pre>pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117</pre>
+           
+                 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+             
 * **Part Coding (Detecttion, Tracking, Movement Condition, User Interface)**
   1. Download custom model is trained
   2. Multiple Object Tracking
