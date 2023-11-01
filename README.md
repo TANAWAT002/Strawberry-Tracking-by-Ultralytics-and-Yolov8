@@ -229,4 +229,9 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
 * **Part Performance Test**
   
-  Performance test to compare the movement time of a typical robot1 with the movement of the new robot2 from ***“[Design and Test of Tomatoes Harvesting Robot](https://ieeexplore.ieee.org/document/7279423)”*** found that the average time to harvest 1 tomato is 24 seconds. Therefore, the time to harvest 1 strawberry was determined to be 24 seconds.
+  Performance test to compare the movement time of a typical robot(*1*) with the movement of the new robot(*2*) from ***“[Design and Test of Tomatoes Harvesting Robot](https://ieeexplore.ieee.org/document/7279423)”*** found that the average time to harvest 1 tomato is 24 seconds. Therefore, the time to harvest 1 strawberry was determined to be 24 seconds.
+
+  *objective*
+  
+    1. To compare the movement time of a typical robot. with the movement of new robots
+    2. To test the performance of the Real-time strawberry tracking system.
