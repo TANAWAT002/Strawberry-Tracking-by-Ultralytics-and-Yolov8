@@ -94,7 +94,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/8595ea1c-1393-4ade-a508-4ed73f17c610)
         
-     2. Import custom model and use GPU for run program by pytorch
+     2. Import custom model (261epochs -> 68epochs) and use GPU for run program by pytorch
 
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/9cff2acd-c775-43cc-b5ef-c8aee32bbd3e)
 
