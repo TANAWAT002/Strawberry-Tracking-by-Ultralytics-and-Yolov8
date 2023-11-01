@@ -91,3 +91,29 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/8595ea1c-1393-4ade-a508-4ed73f17c610)
         
      2. Import custom model and use GPU for run program by pytorch
+
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/9cff2acd-c775-43cc-b5ef-c8aee32bbd3e)
+
+     3. Open camera (0 is port of camera)
+
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/1757f4c5-272e-4032-a6c8-8b3eebcda481)
+
+     4. Read frame
+        
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ce384ff7-afa8-4f80-bbb8-e57135718280)
+
+     5. Use ultralytics for Tracking assign in "results"
+
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/edfc31f7-3bd2-4795-a717-9bc6063f3315)
+
+        You can get "Bounding boxes" (int format, use gpu, to list)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/2cf9578b-0d51-4d59-a850-8aa66a847757)
+
+        or "Object ID" (int format, use gpu, to list)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/8e1c6f9b-4bbb-4dc1-a0ab-29ed62addde0)
+
+        or "Data" (Bounding boxes, object id, confidence, class id) (float format, use gpu, to list)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/8d133781-d1ad-4e8e-9a70-090a17b9260e)
