@@ -1,6 +1,6 @@
 # Strawberry-Tracking-by-Ultralytics-and-Yolov8
 Welcome to my project "Develop Strawberry Tracking System and Movement Conditions of the Strawberry Harvesting Robot" in this repository I would show you **How to use** custom model Yolov8 for Strawberry Tracking and create Movement Condition of Harvesting Robot and run on Nvidia Jetson Nano.
-# Material, Device, Programe, Package and Library 
+# Material, Device, Program, Package and Library 
 * **Material**
 
   1. Plastic Strawberries
@@ -25,7 +25,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
    
       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5d38dbb9-1c0e-4e3f-b8c9-6131e178cf85)
 
-* **Programe**
+* **Program**
   1. Visual Studio Code  ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/a1c5c743-12e9-4a61-805c-e00c960ee41d)
 
   2. Balena Etcher  ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/59df7308-dacd-41a9-91a6-bb7fecc00ad1)
@@ -45,3 +45,16 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
 ## Step-by-step instructions
 * **Part Installing and Setup on PC**
+  1. Download and Install Visual Studio Code from [VScode](https://code.visualstudio.com/)
+  2. Install extensions for [easy-use](https://youtu.be/mXt01LRmVMQ?si=8sGPC3R0pdPheCnv) (Python, Path intellisense, Material icon Theme, Eva Theme and Pylance)
+     ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5e6742b5-99d3-41ee-8d15-c4707f6d52a8)
+
+  3. Install package and library
+     1. Create folder
+     2. Launch Visual Studio Code
+     3. File -> Open Folder -> select the folder was created
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/f68142f9-6d01-4e95-9c36-75ba283d15bf)
+     4. Open terminal "+" -> Command Prompt
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/98b8d7b5-8a89-4f54-8232-7fed1dedda21)
+     5. Install "Opencv" and Ultralytics
+      pip install opencv-contrib-python ultralytics![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
