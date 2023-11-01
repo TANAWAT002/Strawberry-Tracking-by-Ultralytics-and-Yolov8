@@ -365,3 +365,28 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
                 jtop
      
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/18705efa-ea09-412a-8494-488ec98f8269)
+
+    7. Install Visual Studio Code
+
+       1. Download installer from [VScode](https://code.visualstudio.com/#alt-downloads)
+          Linux **->** arm64 **->** .dep
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/a1c837d0-69b8-4800-9999-bb6045a13f21)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/89b5f15b-ae3d-4da3-a907-adeb4c9be0f3)
+
+       2. Install Vscode
+      
+                sudo dpkg -i <file_name.dep>
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/6dcbffcc-7b28-4dfe-9eb4-d7d2f246d11e)
+
+       3. Install extensions (Python, Path intellisense, Material icon Theme, Eva Theme and Pylance)
+      
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/56700162-212a-45c9-a44a-b5c73cd25854)
+
+    8. Install Ultralytics
+ 
+             pip install ultralytics
+
+       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/675ad9a6-2632-4b6f-8de6-ad8599b150c9)
