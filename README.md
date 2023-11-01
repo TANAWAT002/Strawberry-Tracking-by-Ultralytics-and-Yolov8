@@ -4,7 +4,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 * **Material**
    1. Plastic Strawberries
    
-   ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/30b403a1-a904-48fc-9571-bbb6f216821b)
+      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/30b403a1-a904-48fc-9571-bbb6f216821b)
 
 * **Decive**
    1. Nvidia [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
