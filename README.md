@@ -1,9 +1,17 @@
 # Strawberry-Tracking-by-Ultralytics-and-Yolov8
 Welcome to my project "Develop Strawberry Tracking System and Movement Conditions of the Strawberry Harvesting Robot" in this repository I would show you **How to use** custom model Yolov8 for Strawberry Tracking and create Movement Condition of Harvesting Robot and run on Nvidia Jetson Nano.
 # Material, Device, Programe, Package and Library 
-* Material
+* **Material**
 1. Plastic Strawberries
    
    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/30b403a1-a904-48fc-9571-bbb6f216821b)
 
-* Decive
+* **Decive**
+1. Nvidia Jetson Nano
+   
+   ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e309b90c-3f78-4bf3-94a7-3888a4c7f786)
+   
+3. LCD Touch screen Display 7 in (1024 x 600) Model: CLB7INH
+4. 123
+5. 123
+   
