@@ -161,7 +161,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
 
-       3. Strawberry detection function at the right end of the frame
+       3. Strawberry detection function at the right end of the frame (max_x1(...))
           
           Function for checking which strawberry is rightmost. Include bounging boxes (track_xyxy), max_sublist = [ ] and return max_sublist (x1, y1, x2, y2 format)
       
@@ -178,7 +178,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ef5af7ec-228d-4556-a42f-492c0dec5d86)
 
-       4. Function to determine the robot's movement status
+       4. Function to determine the robot's movement status (movementStatus(...))
       
           Set the movement state for the strawberry harvesting robot. Include bounging boxes (track_xyxy), edge_status from endTheEdge(...) and return m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving)
 
