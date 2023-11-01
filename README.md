@@ -7,11 +7,18 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/30b403a1-a904-48fc-9571-bbb6f216821b)
 
 * **Decive**
-1. Nvidia Jetson Nano
+1. Nvidia [Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
    
    ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e309b90c-3f78-4bf3-94a7-3888a4c7f786)
    
-3. LCD Touch screen Display 7 in (1024 x 600) Model: CLB7INH
-4. 123
-5. 123
+3. LCD Touch screen Display 7 in (1024 x 600) Model: [CLB7INH](https://m.indiamart.com/proddetail/7-inch-lcd-touchscreen-17363059997.html?pos=4&pla=n)
    
+   ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/7e8f3081-4d4a-4252-b5d5-aea087fea08a)
+
+4. HDMI cable
+5. Micro-usb cable
+6. Keyborad
+7. Mouse
+8. Usb Camera "[Mycobot Camera Flag](https://shop.elephantrobotics.com/en-th/products/mycobot-camera-flange)"
+   
+   ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5d38dbb9-1c0e-4e3f-b8c9-6131e178cf85)
