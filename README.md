@@ -42,3 +42,6 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
   3. Pytorch  ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/642753f8-fe8b-4fc1-af69-873f6e72a1b7)
 
   4. Ultralytics  ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5378007f-2157-4c87-b48d-86feaaa2c39f)
+
+## Step-by-step instructions
+* ****Part Installing and Setup on PC***
