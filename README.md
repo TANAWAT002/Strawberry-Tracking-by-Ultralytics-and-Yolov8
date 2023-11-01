@@ -79,5 +79,4 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
             <pre>
               bin -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/bin
               lib -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/lib
-              include -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/include
-            </pre>
+              include -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/include</pre>
