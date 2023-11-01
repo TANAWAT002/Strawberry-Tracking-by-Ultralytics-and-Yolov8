@@ -62,7 +62,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/98b8d7b5-8a89-4f54-8232-7fed1dedda21)
         
      5. Install "Opencv" and Ultralytics
-        <pre>pip install opencv-contrib-python ultralytics</pre>
+              pip install opencv-contrib-python ultralytics
       
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
         
@@ -129,19 +129,19 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           
           This function checks if there are any strawberries hitting the left edge of the frame. Include bounging boxes (track_xyxy), i = 0, edge_status = 0 and return edge_status (0:non-Hit the edge, 1:Hit the edge)
  
-           <pre>
-             def endTheEdge(track_xyxy, i=0, edge_status=0):
-                detections = []
-                for det in track_xyxy:
-                  detections.append(det)
-                  if detections[i][0] < 10:
-                    edge_status = 1
-                    break
-                  else:
-                    edge_status = 0
-                  i += 1
-                print("Edge status in endTheEdge function : " + str(edge_status))
-                return edge_status</pre>
+           
+               def endTheEdge(track_xyxy, i=0, edge_status=0):
+                  detections = []
+                  for det in track_xyxy:
+                    detections.append(det)
+                    if detections[i][0] < 10:
+                      edge_status = 1
+                      break
+                    else:
+                      edge_status = 0
+                    i += 1
+                  print("Edge status in endTheEdge function : " + str(edge_status))
+                  return edge_status
 
            ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
        
@@ -149,15 +149,15 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           
           This function counts the number of strawberries in the current frame. Include bounging boxes (track_xyxy), num_stb = 0 and return num_stb (number(s) of strawberry)
 
-          <pre>
-            def countSTB(track_xyxy, num_stb=0):
-              for _ in track_xyxy:
-                num_stb += 1
-              cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
-              cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, (0, 127, 0), 1)
-              print("Numder(s) of STB in countSTB function : " + str(num_stb))
-              return num_stb
-          </pre>
+          
+              def countSTB(track_xyxy, num_stb=0):
+                for _ in track_xyxy:
+                  num_stb += 1
+                cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
+                cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, (0, 127, 0), 1)
+                print("Numder(s) of STB in countSTB function : " + str(num_stb))
+                return num_stb
+          
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
 
@@ -165,16 +165,16 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           
           Function for checking which strawberry is rightmost. Include bounging boxes (track_xyxy), max_sublist = [ ] and return max_sublist (x1, y1, x2, y2 format)
       
-          <pre>
-            def max_x1(track_xyxy,max_sublist=[]):
-              if track_xyxy == []:
-                max_sublist = [20, 20, 30, 30]
-              else:
-                max_sublist = max(track_xyxy, key=lambda x: x[0])
-              cv2.rectangle(frame, (max_sublist[0], max_sublist[1]), (max_sublist[2], max_sublist[3]), RED, 2)
-              print("MAX x1 : " + str(max_sublist))
-              return max_sublist
-          </pre>
+          
+              def max_x1(track_xyxy,max_sublist=[]):
+                if track_xyxy == []:
+                  max_sublist = [20, 20, 30, 30]
+                else:
+                  max_sublist = max(track_xyxy, key=lambda x: x[0])
+                cv2.rectangle(frame, (max_sublist[0], max_sublist[1]), (max_sublist[2], max_sublist[3]), RED, 2)
+                print("MAX x1 : " + str(max_sublist))
+                return max_sublist
+          
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ef5af7ec-228d-4556-a42f-492c0dec5d86)
 
@@ -182,34 +182,34 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
       
           Set the movement state for the strawberry harvesting robot. Include bounging boxes (track_xyxy), edge_status from endTheEdge(...) and return m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving)
 
-          <pre>
-            def movementStatus(track_xyxy, edge_status):
-              max_sublist = max_x1(track_xyxy)
-              print(max_sublist[0])
-              num_stb = countSTB(track_xyxy)
-              if edge_status == 1:
-                  print(f"If edge_status == 1 : num_stb = {num_stb}, max_sublist[0] = {max_sublist[0]}")
-                  if num_stb > 1:
-                      m_status = 0
-                      print("If cond (num_stb > 1) in movement status")
-                  elif num_stb == 1 :
-                      if max_sublist[0] < 10:
-                          m_status = 0
-                          print("Elif(if) cond (num_stb == 1 & max_sublist < 10) in movement status")
-                      else:
-                          m_status = 1
-                          print("Elif(else) cond (num_stb == 1) in movement status")
-                  else:
-                      m_status = 1
-                      print("Else cond in movement status")
-              else:
-                  m_status = 1
-                  print("Else in movement status")
-              print("Movement status : " + str(m_status))
-              cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
-              cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, BLUE, 1)
-              return m_status
-          </pre>
+          
+              def movementStatus(track_xyxy, edge_status):
+                max_sublist = max_x1(track_xyxy)
+                print(max_sublist[0])
+                num_stb = countSTB(track_xyxy)
+                if edge_status == 1:
+                    print(f"If edge_status == 1 : num_stb = {num_stb}, max_sublist[0] = {max_sublist[0]}")
+                    if num_stb > 1:
+                        m_status = 0
+                        print("If cond (num_stb > 1) in movement status")
+                    elif num_stb == 1 :
+                        if max_sublist[0] < 10:
+                            m_status = 0
+                            print("Elif(if) cond (num_stb == 1 & max_sublist < 10) in movement status")
+                        else:
+                            m_status = 1
+                            print("Elif(else) cond (num_stb == 1) in movement status")
+                    else:
+                        m_status = 1
+                        print("Else cond in movement status")
+                else:
+                    m_status = 1
+                    print("Else in movement status")
+                print("Movement status : " + str(m_status))
+                cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
+                cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, BLUE, 1)
+                return m_status
+          
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/be6d3528-eb1a-46a4-b2c4-09c933a1e044)
 
@@ -336,7 +336,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
       1. Open Terminal
       2. Update apt
          
-         <pre>sudo apt update</pre>
+               sudo apt update
  
          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/11f35c18-2770-4315-b660-2ff023206179)
 
