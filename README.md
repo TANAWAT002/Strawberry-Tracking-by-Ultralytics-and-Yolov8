@@ -136,8 +136,8 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
               else:
                 edge_status = 0
               i += 1
-              print("Edge status in endTheEdge function : " + str(edge_status))
-              return edge_status</pre>
+            print("Edge status in endTheEdge function : " + str(edge_status))
+            return edge_status</pre>
 
        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
        
