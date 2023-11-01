@@ -228,4 +228,5 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/a8920165-c5dc-4fcd-9196-60f4f32fa6fb)
 
 * **Part Performance Test**
+  
   Performance test to compare the movement time of a typical robot1 with the movement of the new robot2 from ***“[Design and Test of Tomatoes Harvesting Robot](https://ieeexplore.ieee.org/document/7279423)”*** found that the average time to harvest 1 tomato is 24 seconds. Therefore, the time to harvest 1 strawberry was determined to be 24 seconds.
