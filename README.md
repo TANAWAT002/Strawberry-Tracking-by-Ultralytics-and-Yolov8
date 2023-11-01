@@ -238,16 +238,16 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
        
   ***Hypothesis***
 
-    Typical robot movement time More than a new kind of robot movement
+      Typical robot movement time More than a new kind of robot movement
 
   ***Initial variable***
   
-    Typical robot movements and new robot movements
+      Typical robot movements and new robot movements
   
   ***Dependent variable***
   
-    Robot movement time
-    Control variables
-    5, 10, and 20 red plastic strawberries
-    Simulate an environment similar to the strawberry planting tracks in Plant Factory.
-    Strawberry picking time: 24 seconds/fruit
+      Robot movement time
+      Control variables
+      5, 10, and 20 red plastic strawberries
+      Simulate an environment similar to the strawberry planting tracks in Plant Factory.
+      Strawberry picking time: 24 seconds/fruit
