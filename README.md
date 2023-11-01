@@ -262,13 +262,17 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         **(*1*)** is the general robot movement.
       mobile robot until any strawberries are in the center of the frame Have the robot stop moving, timed for 24 seconds, then let the robot continue moving. Repeat until all pictures are complete.
 
-         **5 ea.**
+          **5 ea.**
  
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e118ff3f-01ef-4079-b6b9-8699fba1ec2f)
 
   
-        **10 ea.**
-        **20 ea.**
+          **10 ea.**
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/7d0266c7-f39f-4e2c-940a-b36d92beff0b)
+
+          **20 ea.**
+ 
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/82b84be2-c4c4-40cf-a659-f2dcd1b9df1f)
 
         **(*2*)** is the new robot movement.
       mobile robot Until any strawberries were found Located along the far left edge of the image frame. Make the robot stop moving. Count the total number of strawberries (n) in the frame, timer 24(n -1) seconds, then let the robot continue moving. Repeat until all balls are complete.
