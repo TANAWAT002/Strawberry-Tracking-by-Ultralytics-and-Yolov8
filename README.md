@@ -233,8 +233,8 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
   ***Objective***
   
-    1. To compare the movement time of a typical robot. with the movement of new robots
-    2. To test the performance of the Real-time strawberry tracking system.
+      1. To compare the movement time of a typical robot. with the movement of new robots
+      2. To test the performance of the Real-time strawberry tracking system.
        
   ***Hypothesis***
 
