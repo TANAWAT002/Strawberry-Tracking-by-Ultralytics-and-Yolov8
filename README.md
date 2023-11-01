@@ -258,9 +258,11 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
   
     1. Simulate an environment similar to a strawberry growing trough in Plant Factory with 5, 10, and 20 fully red strawberry fruits.
     2. Write a program to define the conditions of robot movement.
+       
         2.1 (*1*) is the general robot movement.
       mobile robot until any strawberries are in the center of the frame Have the robot stop moving, timed for 24 seconds, then let the robot continue moving. Repeat until all pictures are complete.
         2.2 (*2*) is the new robot movement.
       mobile robot Until any strawberries were found Located along the far left edge of the image frame. Make the robot stop moving. Count the total number of strawberries (n) in the frame, timer 24(n -1) seconds, then let the robot continue moving. Repeat until all balls are complete.
+
     3. Record the experimental results in the results recording table.
     4. Analyze, summarize and discuss results.
