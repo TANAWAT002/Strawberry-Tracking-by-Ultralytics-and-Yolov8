@@ -259,23 +259,35 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
     1. Simulate an environment similar to a strawberry growing trough in Plant Factory with 5, 10, and 20 fully red strawberry fruits.
     2. Write a program to define the conditions of robot movement.
        
-        **(*1*)** is the general robot movement.
+        **(*1*)** is the general robot movement. (*Robot_performance_test_002.py*)
       mobile robot until any strawberries are in the center of the frame Have the robot stop moving, timed for 24 seconds, then let the robot continue moving. Repeat until all pictures are complete.
 
           **5 ea.**
  
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e118ff3f-01ef-4079-b6b9-8699fba1ec2f)
-
   
           **10 ea.**
+       
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/7d0266c7-f39f-4e2c-940a-b36d92beff0b)
 
           **20 ea.**
  
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/82b84be2-c4c4-40cf-a659-f2dcd1b9df1f)
 
-        **(*2*)** is the new robot movement.
+        **(*2*)** is the new robot movement. (*Robot_performance_test_001.py*)
       mobile robot Until any strawberries were found Located along the far left edge of the image frame. Make the robot stop moving. Count the total number of strawberries (n) in the frame, timer 24(n -1) seconds, then let the robot continue moving. Repeat until all balls are complete.
+
+          **5 ea.**
+ 
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e7089f80-7b51-4ed7-8dfd-8b6fee2fe545)
+
+          **10 ea.**
+       
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/70378847-dca4-4919-aee6-3032f9b7abfb)
+
+          **20 ea.**
+ 
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/64d7bc72-4044-46c1-9cf1-34bcfaaa7deb)
 
     4. Record the experimental results in the results recording table.
 
