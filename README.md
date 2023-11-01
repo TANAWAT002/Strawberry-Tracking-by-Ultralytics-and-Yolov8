@@ -160,3 +160,20 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           </pre>
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
+
+       3. Strawberry detection function at the right end of the frame
+          
+          Function for checking which strawberry is rightmost. Include bounging boxes (track_xyxy), max_sublist = [] and return max_sublist (x1, y1, x2, y2 format)
+      
+          <pre>
+            def max_x1(track_xyxy,max_sublist=[]):
+              if track_xyxy == []:
+                max_sublist = [20, 20, 30, 30]
+              else:
+                max_sublist = max(track_xyxy, key=lambda x: x[0])
+              cv2.rectangle(frame, (max_sublist[0], max_sublist[1]), (max_sublist[2], max_sublist[3]), RED, 2)
+              print("MAX x1 : " + str(max_sublist))
+              return max_sublist
+          </pre>
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ef5af7ec-228d-4556-a42f-492c0dec5d86)
