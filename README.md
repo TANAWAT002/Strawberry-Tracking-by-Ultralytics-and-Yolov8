@@ -302,3 +302,19 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         - To collect 10 strawberries, the trypical robot movement took 289 seconds (4 minutes 49 seconds) and the new robot movement took 151 seconds (4 minutes 21 seconds), 20.42 percent faster.
           
         - To collect 20 strawberries, the trypical robot movement took 554 seconds (9 minutes 14 seconds) and the new robot movement took 482 seconds (8 minutes 2 seconds), 14.94 percent faster.
+
+* **Installing and Setup on Nvidia Jetson Nano**
+  
+  1. Download **[Ubuntu 20.04](https://ubuntu.com/)** 1. Download Ubuntu 20.04 with CUDA, Opencv, Python, Pytorch, TensorRT installed in the operating system at [Qengineering/Jetson-Nano-Ubuntu-20-image](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)
+ 
+  2. Install the program for Format SD Card and Flash OS.
+     
+     1. [Balena Etcher](https://etcher.balena.io/)
+    
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5db86a1e-0f21-4004-a56f-bb33eb818242)
+
+     2. [SD Cart Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+    
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/45ee749c-0603-4eb6-ae37-8fe9ab448fc8)
+
+   3.
