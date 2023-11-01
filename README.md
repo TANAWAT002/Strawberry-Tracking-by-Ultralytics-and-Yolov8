@@ -163,7 +163,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
        3. Strawberry detection function at the right end of the frame
           
-          Function for checking which strawberry is rightmost. Include bounging boxes (track_xyxy), max_sublist = [] and return max_sublist (x1, y1, x2, y2 format)
+          Function for checking which strawberry is rightmost. Include bounging boxes (track_xyxy), max_sublist = [ ] and return max_sublist (x1, y1, x2, y2 format)
       
           <pre>
             def max_x1(track_xyxy,max_sublist=[]):
@@ -177,3 +177,41 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
           </pre>
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ef5af7ec-228d-4556-a42f-492c0dec5d86)
+
+       4. Function to determine the robot's movement status
+      
+          Set the movement state for the strawberry harvesting robot. Include bounging boxes (track_xyxy), edge_status from endTheEdge(...) and return m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving)
+
+          <pre>
+            def movementStatus(track_xyxy, edge_status):
+              max_sublist = max_x1(track_xyxy)
+              print(max_sublist[0])
+              num_stb = countSTB(track_xyxy)
+              if edge_status == 1:
+                  print(f"If edge_status == 1 : num_stb = {num_stb}, max_sublist[0] = {max_sublist[0]}")
+                  if num_stb > 1:
+                      m_status = 0
+                      print("If cond (num_stb > 1) in movement status")
+                  elif num_stb == 1 :
+                      if max_sublist[0] < 10:
+                          m_status = 0
+                          print("Elif(if) cond (num_stb == 1 & max_sublist < 10) in movement status")
+                      else:
+                          m_status = 1
+                          print("Elif(else) cond (num_stb == 1) in movement status")
+                  else:
+                      m_status = 1
+                      print("Else cond in movement status")
+              else:
+                  m_status = 1
+                  print("Else in movement status")
+              print("Movement status : " + str(m_status))
+              cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
+              cv2.putText(frame, f"Movement status : {m_status}", (10, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, BLUE, 1)
+              return m_status
+          </pre>
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/be6d3528-eb1a-46a4-b2c4-09c933a1e044)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/c599f426-993a-4134-87e3-58bd75d93ec6)
+
