@@ -317,4 +317,14 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
     
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/45ee749c-0603-4eb6-ae37-8fe9ab448fc8)
 
-   3.
+   3. Format micro-SD Card (64GB) with SD Card Formatter program.
+ 
+      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/38ea802f-b590-466c-8355-eca94e69d0e9)
+
+   4. Fash OS downloaded from step (i) into the formatted micro-SD Card from step (iii) with the Balena Etcher program.
+
+      Select file **->** select micro-SD Card **->** flash.
+
+      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/82acc7a3-53b3-4b18-b891-16f6be57d858)
+
+      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/19add400-034c-4c1a-97e2-ad0c44009da1)
