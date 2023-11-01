@@ -47,17 +47,21 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 * **Part Installing and Setup on PC**
   1. Download and Install Visual Studio Code from [VScode](https://code.visualstudio.com/)
   2. Install extensions for [easy-use](https://youtu.be/mXt01LRmVMQ?si=8sGPC3R0pdPheCnv) (Python, Path intellisense, Material icon Theme, Eva Theme and Pylance)
+
      ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/5e6742b5-99d3-41ee-8d15-c4707f6d52a8)
 
-  3. **Install package and library***
+  4. Install package and library
      1. Create folder
      2. Launch Visual Studio Code
      3. File -> Open Folder -> select the folder was created
         
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/f68142f9-6d01-4e95-9c36-75ba283d15bf)
-     5. Open terminal "+" -> Command Prompt
+        
+     4. Open terminal "+" -> Command Prompt
         
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/98b8d7b5-8a89-4f54-8232-7fed1dedda21)
-     6. Install "Opencv" and Ultralytics
-      pip install opencv-contrib-python ultralytics
+        
+     5. Install "Opencv" and Ultralytics
+      <pre>pip install opencv-contrib-python ultralytics</pre>
+      
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
