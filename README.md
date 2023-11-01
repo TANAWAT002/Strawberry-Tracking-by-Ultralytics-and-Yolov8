@@ -159,4 +159,4 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
               return num_stb
           </pre>
 
-         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
