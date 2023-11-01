@@ -266,4 +266,15 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
       mobile robot Until any strawberries were found Located along the far left edge of the image frame. Make the robot stop moving. Count the total number of strawberries (n) in the frame, timer 24(n -1) seconds, then let the robot continue moving. Repeat until all balls are complete.
 
     4. Record the experimental results in the results recording table.
+
+        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ed6d0929-365b-414f-8571-73eb4498e82d)
+
     5. Analyze, summarize and discuss results.
+ 
+       ***Analyze results***
+       
+        - To collect 5 strawberries, the trypical robot movement took 156 seconds (2 minutes 36 seconds) and the new robot movement took 151 seconds (2 minutes 31 seconds), 3.31 percent faster.
+          
+        - To collect 10 strawberries, the trypical robot movement took 289 seconds (4 minutes 49 seconds) and the new robot movement took 151 seconds (4 minutes 21 seconds), 20.42 percent faster.
+          
+        - To collect 20 strawberries, the trypical robot movement took 554 seconds (9 minutes 14 seconds) and the new robot movement took 482 seconds (8 minutes 2 seconds), 14.94 percent faster.
