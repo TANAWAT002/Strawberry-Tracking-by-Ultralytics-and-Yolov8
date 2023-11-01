@@ -65,4 +65,19 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         <pre>pip install opencv-contrib-python ultralytics</pre>
       
         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ff74da9a-e084-4417-96b9-588ee2874357)
-    4. 
+        
+    4. Download and Install Nvidia GPU Computing Toolkit from [cuda11.7](https://developer.nvidia.com/cuda-11-7-0-download-archive)
+       1. Windows10 -> x86_64 -> exe(local) -> run .exe file for install
+       
+         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/a2d1197a-63c8-416c-822f-c2a545fd3e76)
+
+       2. Download Nvidia cuDNN from [cudnn](https://developer.nvidia.com/cudnn)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/b5a87b7d-fca1-4033-bfa0-5e714f66357c)
+
+          Extract .zip file and then move the files in these folders to CUDA.
+            <pre>
+              bin -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/bin
+              lib -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/lib
+              include -> C:/Programe files/Nvidia GPU Computing Toolkit/CUDA/v11.7/include
+            </pre>
