@@ -126,7 +126,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
        Robot movement conditions Set the robot's movement status to be m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving). Start by setting m_status = 1 until one of the strawberry fruits is found close to the edge. The left side of the image frame therefore gives m_status = 0 and m_status = 1 only if the number of strawberries is less than or equal to 1, shown as a working diagram as follows.
  
        1. Strawberry edge collision detection function (endTheEdge(...))
-          include bounging boxes (track_xyxy), i = 0, edge_status = 0 and return edge_status (0:non-Hit the edge, 1:Hit the edge)
+          This function checks if there are any strawberries hitting the left edge of the frame. Include bounging boxes (track_xyxy), i = 0, edge_status = 0 and return edge_status (0:non-Hit the edge, 1:Hit the edge)
  
        <pre>
          def endTheEdge(track_xyxy, i=0, edge_status=0):
@@ -144,3 +144,16 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
        
+      2. Strawberry counting function (countSTB(...))
+         This function counts the number of strawberries in the current frame. Include bounging boxes (track_xyxy), num_stb = 0 and return num_stb (number(s) of strawberry)
+
+          <pre>
+            def countSTB(track_xyxy, num_stb=0):
+              for _ in track_xyxy:
+                num_stb += 1
+              cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
+              cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, (0, 127, 0), 1)
+              print("Numder(s) of STB in countSTB function : " + str(num_stb))
+              return num_stb</pre>
+
+         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
