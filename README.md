@@ -154,6 +154,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
               cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, WHITE, 3)
               cv2.putText(frame, f"Number(s) of Strawberry : {num_stb}", (200, 40), cv2.FONT_HERSHEY_DUPLEX, 0.5, (0, 127, 0), 1)
               print("Numder(s) of STB in countSTB function : " + str(num_stb))
-              return num_stb</pre>
+              return num_stb
+          </pre>
 
          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e4952c57-57c2-4697-883a-3212616644aa)
