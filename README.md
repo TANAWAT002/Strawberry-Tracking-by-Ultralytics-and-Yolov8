@@ -117,3 +117,27 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
         or "Data" (Bounding boxes, object id, confidence, class id) (float format, use gpu, to list)
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/8d133781-d1ad-4e8e-9a70-090a17b9260e)
+
+       6. Show realtime output on display
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e482cf48-5b96-4d5c-a28e-6bebabf1a4be)
+
+    3. Movement Condition of Strawberry Harvesting Robot
+       Robot movement conditions Set the robot's movement status to be m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving). Start by setting m_status = 1 until one of the strawberry fruits is found close to the edge. The left side of the image frame therefore gives m_status = 0 and m_status = 1 only if the number of strawberries is less than or equal to 1, shown as a working diagram as follows.
+ 
+       <pre>
+  def endTheEdge(track_xyxy, i=0, edge_status=0):
+    detections = []
+    for det in track_xyxy:
+        detections.append(det)
+        if detections[i][0] < 10:
+            edge_status = 1
+            break
+        else:
+            edge_status = 0
+        i += 1
+    print("Edge status in endTheEdge function : " + str(edge_status))
+    return edge_status</pre>
+
+       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
+       
