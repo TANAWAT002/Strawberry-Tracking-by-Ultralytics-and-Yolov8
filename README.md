@@ -328,3 +328,36 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/82acc7a3-53b3-4b18-b891-16f6be57d858)
 
       ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/19add400-034c-4c1a-97e2-ad0c44009da1)
+
+   5. After the OS is finished flashing, insert it into the micro-SD Card slot of the Nvidia Jetson Nano with the Keyboard, Mouse, Display, already connected (the installed OS has already registered the system; password: jetson)
+ 
+   6. Expand the partition size from the original 32 GB to 64 GB with the gparted program.
+ 
+      1. Open Terminal
+      2. Update apt
+         
+         <pre>sudo apt update</pre>
+ 
+         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/11f35c18-2770-4315-b660-2ff023206179)
+
+         Install gparted
+         
+         <pre>sudo apt install gparted</pre>
+
+         ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ece0378f-d5e7-44d5-b6fb-d712a3d21234)
+
+       3. Launch gparted
+     
+          <pre>gparted</pre>
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/48d98115-5727-47fa-84bd-23caf249e023)
+
+       4. Right click on the current partition **->** resize/move **->** select adjust the value to maximum (59GB).
+     
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/553e5ae3-fd18-4674-b1cb-88a3f988a844)
+
+       5. Check the partition size using the jtop command in Terminal.
+     
+          <pre>jtop</pre>
+     
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/18705efa-ea09-412a-8494-488ec98f8269)
