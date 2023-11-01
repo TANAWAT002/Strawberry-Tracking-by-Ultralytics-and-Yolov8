@@ -125,6 +125,9 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
     3. Movement Condition of Strawberry Harvesting Robot
        Robot movement conditions Set the robot's movement status to be m_status (m_status = 1 is the robot moves, m_staus = 0 is the robot has stopped moving). Start by setting m_status = 1 until one of the strawberry fruits is found close to the edge. The left side of the image frame therefore gives m_status = 0 and m_status = 1 only if the number of strawberries is less than or equal to 1, shown as a working diagram as follows.
  
+       1. Strawberry edge collision detection function (endTheEdge(...))
+          include bounging boxes (track_xyxy), i = 0, edge_status = 0 and return edge_status (0:non-Hit the edge, 1:Hit the edge)
+ 
        <pre>
          def endTheEdge(track_xyxy, i=0, edge_status=0):
             detections = []
