@@ -145,7 +145,7 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
        ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/34528ace-ea10-41c2-aa97-6bc83bd7c66c)
        
        2. Strawberry counting function (countSTB(...))
-         This function counts the number of strawberries in the current frame. Include bounging boxes (track_xyxy), num_stb = 0 and return num_stb (number(s) of strawberry)
+          This function counts the number of strawberries in the current frame. Include bounging boxes (track_xyxy), num_stb = 0 and return num_stb (number(s) of strawberry)
 
           <pre>
             def countSTB(track_xyxy, num_stb=0):
