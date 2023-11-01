@@ -215,3 +215,13 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/c599f426-993a-4134-87e3-58bd75d93ec6)
 
+       5. Main Code (Robot_moving_track_008.py)
+          This flowchart shows you how the code works.
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/408d0836-c9f2-4a96-8c90-333625155fd4)
+          
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/e05e76f9-7ca9-4215-9f80-6a05f41a9cc2)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/bee8010c-ca1b-4ccd-9865-38b5740c0799)
+
+          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/a8920165-c5dc-4fcd-9196-60f4f32fa6fb)
