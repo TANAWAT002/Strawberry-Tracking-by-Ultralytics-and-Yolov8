@@ -342,13 +342,13 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
          Install gparted
          
-         <pre>sudo apt install gparted</pre>
+               sudo apt install gparted
 
          ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/ece0378f-d5e7-44d5-b6fb-d712a3d21234)
 
        3. Launch gparted
      
-          <pre>gparted</pre>
+                gparted
 
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/48d98115-5727-47fa-84bd-23caf249e023)
 
@@ -358,6 +358,6 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
        5. Check the partition size using the jtop command in Terminal.
      
-          <pre>jtop</pre>
+                jtop
      
           ![image](https://github.com/TANAWAT002/Strawberry-Tracking-by-Ultralytics-and-Yolov8/assets/136689717/18705efa-ea09-412a-8494-488ec98f8269)
