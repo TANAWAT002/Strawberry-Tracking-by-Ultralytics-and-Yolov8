@@ -423,25 +423,25 @@ Welcome to my project "Develop Strawberry Tracking System and Movement Condition
 
 * **Software**
   
-  Baleba Etcher
+  [Baleba Etcher](https://etcher.balena.io/)
   
-  SD Card Formatter
+  [SD Card Formatter](https://www.sdcard.org/downloads/formatter/sdmemory-card-formatter-for-windows-download/)
   
-  Visual Studio Code
+  [Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
   
 * **Package and Library**
   
-	Python
+	[Python](https://www.python.org/)
 
-	Pytorch
+	[Pytorch](https://pytorch.org/)
 
-	Opencv
+	[Opencv](https://medium.com/@nnatchunn/opencv)
 
-	Ultralytics and yolov8
+	[Ultralytics and yolov8](https://www.ultralytics.com/)
 
-	gparted
-* **Detection**
-* **Tracking**
-* **Nvidia Jetson Nano**
-* **Nvidia GPU Computing Toolkit**
-* **Ubuntu 20.04 + cuda + tensorRT**
+	[gparted](https://gparted.org/download.php)
+* **[Detection](https://www.bualabs.com/archives/3453/what-is-object-detection-tutorialtensorflow-js-build-object-detection-machine-learning-coco-ssd-tfjs-ep-8/)**
+* **[Tracking]( https://www.v7labs.com/blog/object-tracking-guide)**
+* **[Nvidia Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)**
+* **[Nvidia GPU Computing Toolkit](https://developer.nvidia.com/cuda-zone#)**
+* **[Ubuntu 20.04 + cuda + tensorRT](https://github.com/Qengineering/Jetson-Nano-Ubuntu-20-image)**
